@@ -12,7 +12,12 @@ nav{
   justify-content: space-between;
   align-items: center;
   background-color: #FFFFFF;
+  width: 1600px;
  
+}
+.nevber{
+  max-width: 1600px;
+  height: 92px;
 }
 header{
   
@@ -172,3 +177,65 @@ background-color: transparent;
   background: transparent;
   background-color: rgba(255,255,255,0.15);
 }
+/* Meddle section */
+main{
+  max-width: 1600px;
+}
+#midle-section{
+  width: 1360px;
+  height: 153px;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-left: 120px;
+}
+.midle-div{
+  width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.midle-title{
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+}
+.midle-p{
+  font-size: 16px;
+  color: #627382;
+  padding-top: 16px;
+  padding-bottom: 0px;
+}
+.skill-box{
+  padding-top: 44px;
+  display: flex;
+  width: 1360px;
+  /* height: 300px; */
+  gap: 24px;
+ 
+}
+.skill-card{
+  box-shadow: #627382;
+}
+.skill-box img{
+  background-color: #F95555;
+  border-radius: 30px;
+  padding: 13px 14px;
+   margin: 70px 107px 16px 107px;
+}
+
+.skill-box .skill-card{
+  padding: 30px;
+  /* border: 1px solid red; */
+  box-shadow: 0px 0px 8px 0px #00000041;
+  max-width: 322px;
+}
+.skill-card h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.skill-card p{
+  font-size:16px ;
+  color:#627382 ;
+}
+ 
