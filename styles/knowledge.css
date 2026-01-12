@@ -19,10 +19,9 @@ nav{
   max-width: 1600px;
   height: 92px;
 }
-header{
+
   
   
-}
 .logo{
   display: flex;
   gap: 30px;
@@ -135,7 +134,7 @@ padding-top: 151px;
 }
 .btn-second i{
   padding-right: 10px;
-  height: 20px;
+  /* height: 20px; */
   width: 20px;
    
 }
@@ -178,12 +177,11 @@ background-color: transparent;
   background-color: rgba(255,255,255,0.15);
 }
 /* Meddle section */
-main{
-  max-width: 1600px;
-}
+
+ 
 #midle-section{
   width: 1360px;
-  height: 153px;
+  /* height: 153px; */
   /* border: 1px solid red; */
   text-align: center;
   margin-left: 120px;
@@ -228,7 +226,8 @@ main{
   padding: 30px;
   /* border: 1px solid red; */
   box-shadow: 0px 0px 8px 0px #00000041;
-  max-width: 322px;
+
+
 }
 .skill-card h3{
   font-size: 20px;
@@ -238,4 +237,116 @@ main{
   font-size:16px ;
   color:#627382 ;
 }
- 
+.knowledge-img{
+  width: 600px;
+}
+.resume{
+  margin-top: 120px;
+  max-width: 1360px;
+}
+.driscription-part{
+  display: flex;
+}
+.resume-section{
+  display: flex;
+}
+#resume{
+  width: 1360px;
+  /* border: 1px solid red; */
+  margin: 120px 120px;
+  display: flex;
+  gap: 60px;
+}
+#resume .image-resume{
+  max-width: 600px;
+  /* border: 1px solid red; */
+  border-radius: 12px;
+}
+#resume .img-1{
+  display: flex;
+}
+#resume .resume-container{
+  padding-top:102px;
+  text-align: left;
+}
+.heading-1{
+  font-size: 16px;
+  color: #469165;
+  font-weight: 500px;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+.heading-2{
+  color: #001931;
+  font-size: 48px;
+  font-weight: 700px;
+  line-height: 58px;
+  text-transform: capitalize;
+  max-width: 700px;
+  text-align: left;
+}
+.resume-p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  max-width: 700px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+}
+.container-img p{
+  font-size: 16px;
+  width: 500px;
+  line-height: 20px;
+  color: #001931;
+  
+}
+.container-img .img-1{
+  padding-bottom: 16px;
+
+}
+#Ready-1 {
+  max-width: 1360px;
+  border: 1px solid #F7F6F2;
+  margin: 0 auto;
+  border-radius: 12px;
+  text-align: center;
+  background-color: rgba(247,246,242,1);
+}
+#Ready-1 .ready-section-1{
+  max-width: 1280px;
+  /* border: 1px solid red; */
+  padding-top: 8opx;
+  margin-left: 40px;
+}
+.ready-section-1 .ready-heading{
+  color: #001931;
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 48px;
+  text-transform: capitalize;
+  
+}
+.ready-section-1 .ready-p{
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* padding-bottom: 24px; */
+  padding-top: 16px;
+}
+.btn-get{
+  padding-top: 24px;
+  padding-bottom: 80px;
+  /* border: 1px solid red; */
+}
+.btn-get .credit-last{
+  font-size:16px ;
+  width: 400px;
+  color: #627382;
+  padding-top: 16px;
+  margin: auto;
+  
+}
+
